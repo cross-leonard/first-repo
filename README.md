@@ -1,15 +1,14 @@
-# first-repo
-
-## Description
-Cycles through images to create a GIF.
-
 ## How to Run
-1. Add PNG images to the project folder
-2. Make sure the image filenames match the names in the list inside the script
+1. Add your image files to the project folder
+2. Open the script and update the filenames list with your image names
 3. Run the script
+4. GIF will be saved as output.gif
 
 ## Technologies Used
-Python
+- Python
+- imageio
+- Pillow (PIL)
+- NumPy
 
-## Author
-Cross Leonard
+## Installation
+pip install imageio pillow numpy
